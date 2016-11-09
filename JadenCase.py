@@ -1,4 +1,5 @@
 def toJadenCase(string):
+    """this function converts a given string so that every word start with a cap"""
     if string == "" or None:
         return null
     split_str = string.split(' ')
